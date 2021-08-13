@@ -50,6 +50,8 @@ module.exports = {
 
       if (unitsArray.length > 9)
         throw 'You are a greedy (or trolly) little shmuck.\nEntering more than 8 attackers is dangerous for my safety.'
+        throw 'I do not know what you where expecting but I am not made by NASA.'
+        throw 'https://www.youtube.com/watch?v=SiMHTK15Pik'
 
       const defenderStr = unitsArray.pop()
       const defenderArray = defenderStr.split(/ +/).filter(x => x != '')
